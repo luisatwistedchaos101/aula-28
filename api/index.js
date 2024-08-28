@@ -1,8 +1,6 @@
-const http = require("http");
-const PORT = 3000;
-const server = http.createServer(requestHandler);
+const express = require('express');
 
-// Faz o servidor escutar na porta definida
-server.listen(PORT, () => {
-  console.log(`Servidor rodando na porta ${PORT}`);
-});
+const server = express();
+
+const PORT = 3000;
+server.listen(PORT, () => console.log('Server is running... 🔥'))
