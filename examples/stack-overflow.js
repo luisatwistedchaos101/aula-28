@@ -1,3 +1,4 @@
+
 function chamarRecursivamente() {
   console.log("Chamando a função...");
   chamarRecursivamente(); // Chama a si mesma sem condição de parada
